@@ -26,7 +26,7 @@ services:
     restart: always
     # Caso a porta 3306 já esteja em uso, você pode alterar a porta do host no campo "ports"
     ports:
-      - "3306:3306"
+      - "3308:3306"
     # Para se conectar ao container via Workbench ou em outra ferramenta, o usuário e senha devem ser os mesmos definidos aqui, ou seja, o usuário é root e a senha password
     environment:
       MYSQL_ROOT_PASSWORD: password
